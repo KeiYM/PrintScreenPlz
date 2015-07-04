@@ -1,0 +1,22 @@
+----FAQ----
+1. Crashes after successful build:
+Linker Issue. MFC is not initialized properly.
+Go to 
+Project>ScreenshotPlz Properties>Linker>Input>Force Symbol References: __DllMainCRTStartup@12
+
+http://stackoverflow.com/questions/8496176/why-afxwin-h-and-afxmt-h-cause-vc2008-form-app-crash
+
+2. #error :  Building MFC application with /MD[d] (CRT dll version) requires MFC shared dll version. Please #define _AFXDLL or do not use /MD[d]:
+
+Project ->ScreenshotPlz Properties -> Configuration Properties -> C/C++ -> Advanced -> Show Includes:YES(/showIncludes)
+
+Project ->ScreenshotPlz Properties -> Configuration Properties -> General -> Project Defaults -> Use of MFC :Use MFC in a shared DLL
+
+http://stackoverflow.com/questions/25031009/error-please-define-afxdll-or-do-not-use-mdd-occurs-even-after-making-chang
+http://stackoverflow.com/questions/18692338/win32-project-generating-mfc-error
+
+3. LNKER unresolved tokens (gdiplus)
+
+Project->ScreenshotPlz Properties->Linker->General->Additional Dependencies->"gdiplus.lib"
+
+https://social.msdn.microsoft.com/Forums/vstudio/en-US/53af79f6-d9b9-4c2b-aabc-518a13d992ac/unresolved-token-and-other-link-errors-when-migrating-from-vc-2003-to-vc2005-express?forum=vcgeneral

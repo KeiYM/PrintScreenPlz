@@ -1,0 +1,36 @@
+Screenshot:
+http://stackoverflow.com/questions/997175/how-can-i-take-a-screenshot-and-save-it-as-jpeg-on-windows
+Handles:
+https://msdn.microsoft.com/en-us/library/windows/desktop/ms683199(v=vs.85).aspx
+http://stackoverflow.com/questions/6728782/how-does-getmodulehandle-work-in-visual-c
+
+
+HBITMAP:
+http://forums.codeguru.com/showthread.php?129298-Q-What-is-diffenence-between-HBITMAP-and-BITMAP
+
+Long Pointer Constant Wide String (LPCWS):
+http://stackoverflow.com/questions/2230758/what-does-lpcwstr-stand-for-and-how-should-it-be-handled-with
+
+Screenshot (Whole screen)
+http://stackoverflow.com/questions/3291167/how-to-make-screen-screenshot-with-win32-in-c
+
+Paste:
+http://www.experts-exchange.com/Programming/Editors_IDEs/Q_24769725.html
+
+Hot Keys
+http://stackoverflow.com/questions/11006623/registering-a-global-hotkey-without-disabling-its-key
+
+WndProc (Message method) override
+http://stackoverflow.com/questions/12642828/override-wndproc-in-class
+
+Resend Keystrokes
+http://stackoverflow.com/questions/1021175/sendinput-keyboard-letters-c-c
+
+My Pictures FilePath
+http://stackoverflow.com/questions/8900930/get-path-to-my-pictures-from-c
+
+Version Info
+http://stackoverflow.com/questions/4070360/vs2010-setting-up-file-details-on-application-build
+
+New Form
+https://social.msdn.microsoft.com/Forums/windows/en-US/87025e23-aa77-47d8-9fbe-121cec469b42/how-do-i-open-a-windows-form-from-another-windows-form-c?forum=winformsdesigner
