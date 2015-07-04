@@ -6,7 +6,9 @@ Tested on Windows 7 only so far.
 
 Current Issues:
 Using Ctrl as the PrintScreen button may disrupt Ctrl+C and Ctrl+V (Copy/Paste) on other Applications.
-Uses MFC DLLs (Eg. mfc100ud.dll). May need to statically link the DLLs.
+Uses MFC DLLs (Eg. mfc100ud.dll). For now, users require to download:
+Microsoft Visual C++ 2010 Redistributable Package
+to run the program.
 
 Contact me @ keithlimym@hotmail.com
 
