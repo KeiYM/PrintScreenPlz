@@ -1,3 +1,13 @@
-An application which would run on the foreground, and listens to an assigned hotkey. If pressed, the application would carry out a PrintScr function, and save the screen as an image (In a preset directory)
+An application which would run on the foreground, and listens to an assigned hotkey. If pressed, the application would carry out a PrintScr function, and save the screen as an image (In a preset directory). Only for Windows.
 
-(c) Keith Lim, 2015
+This project was sadly developed offline, but is now pushed on GitHub for any contributions and improvements.
+
+Tested on Windows 7 only so far.
+
+Current Issues:
+Using Ctrl as the PrintScreen button may disrupt Ctrl+C and Ctrl+V (Copy/Paste) on other Applications.
+Uses MFC DLLs (Eg. mfc100ud.dll). May need to statically link the DLLs.
+
+Contact me @ keithlimym@hotmail.com
+
+(c) Keith Lim Yong Ming, 2015
