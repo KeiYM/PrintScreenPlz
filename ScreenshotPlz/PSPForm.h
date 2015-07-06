@@ -388,7 +388,10 @@ namespace PrintScreenPlz {
 	//Close App
 	private: System::Void terminatePS_Click(System::Object^  sender, System::EventArgs^  e) {
 				 //Close Program.
-				 //TODO: Remove all Listeners (If any)
+				 
+				 //Global Hotkey
+				 HWND hWnd = static_cast<HWND>(Handle.ToPointer());
+
 				 UnregisterHotKey(hWnd,id);
 				 Application::Exit();
 			 }
@@ -651,7 +654,7 @@ namespace PrintScreenPlz {
 				 addAlt->Enabled = true;
 				 addShift->Enabled = true;
 
-
+				 HWND hWnd = static_cast<HWND>(Handle.ToPointer());
 				 //Remove Hotkey
 				 UnregisterHotKey(hWnd,id);
 			 }
