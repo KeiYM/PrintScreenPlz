@@ -1,7 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ScreenshotPlz", "ScreenshotPlz\ScreenshotPlz.vcxproj", "{A9007606-3C37-47FF-8E1E-A0E3CE76F69D}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PrintScreenPlz", "ScreenshotPlz\ScreenshotPlz.vcxproj", "{A9007606-3C37-47FF-8E1E-A0E3CE76F69D}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "PSPSetup", "PSPSetup\PSPSetup.vdproj", "{6B02285C-25A9-46EB-B206-77FD74A40A52}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,6 +15,8 @@ Global
 		{A9007606-3C37-47FF-8E1E-A0E3CE76F69D}.Debug|Win32.Build.0 = Debug|Win32
 		{A9007606-3C37-47FF-8E1E-A0E3CE76F69D}.Release|Win32.ActiveCfg = Release|Win32
 		{A9007606-3C37-47FF-8E1E-A0E3CE76F69D}.Release|Win32.Build.0 = Release|Win32
+		{6B02285C-25A9-46EB-B206-77FD74A40A52}.Debug|Win32.ActiveCfg = Debug
+		{6B02285C-25A9-46EB-B206-77FD74A40A52}.Release|Win32.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

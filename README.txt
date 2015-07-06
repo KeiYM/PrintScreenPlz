@@ -4,11 +4,12 @@ This project was sadly developed offline, but is now pushed on GitHub for any co
 
 Tested on Windows 7 only so far.
 
+7/6/2015:
+Introduced a Installer project for users lacking the necessary DLLs 
+
+
 Current Issues:
 Using Ctrl as the PrintScreen button may disrupt Ctrl+C and Ctrl+V (Copy/Paste) on other Applications.
-Uses MFC DLLs (Eg. mfc100ud.dll). For now, users require to download:
-Microsoft Visual C++ 2010 Redistributable Package
-to run the program.
 
 Contact me @ keithlimym@hotmail.com
 

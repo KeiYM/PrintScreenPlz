@@ -616,13 +616,13 @@ namespace PrintScreenPlz {
 						image.Attach(hBitmap); 
 
 						if(bmpRB->Checked) {					
-							_stprintf(szName, _T("%s\\%02d-%02d-%02d-%03d.bmp"), path, st.wHour, st.wMinute, st.wSecond, st.wMilliseconds);
+							_stprintf_s(szName, _T("%s\\%02d-%02d-%02d-%03d.bmp"), path, st.wHour, st.wMinute, st.wSecond, st.wMilliseconds);
 							image.Save(szName, Gdiplus::ImageFormatBMP);
 						}else if(jpegRB->Checked) {
-							_stprintf(szName, _T("%s\\%02d-%02d-%02d-%03d.jpg"), path, st.wHour, st.wMinute, st.wSecond, st.wMilliseconds);
+							_stprintf_s(szName, _T("%s\\%02d-%02d-%02d-%03d.jpg"), path, st.wHour, st.wMinute, st.wSecond, st.wMilliseconds);
 							image.Save(szName, Gdiplus::ImageFormatJPEG); 
 						}else if(pngRB->Checked) {
-							_stprintf(szName, _T("%s\\%02d-%02d-%02d-%03d.png"), path, st.wHour, st.wMinute, st.wSecond, st.wMilliseconds);
+							_stprintf_s(szName, _T("%s\\%02d-%02d-%02d-%03d.png"), path, st.wHour, st.wMinute, st.wSecond, st.wMilliseconds);
 							image.Save(szName, Gdiplus::ImageFormatPNG);
 						} 
 						CloseClipboard();
