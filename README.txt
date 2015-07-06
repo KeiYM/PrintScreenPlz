@@ -7,6 +7,10 @@ Tested on Windows 7 only so far.
 7/6/2015:
 Introduced a Installer project for users lacking the necessary DLLs 
 
+MD5 Checksums:
+printscreenplz.exe: ea83f9b3b4946348c254bd4488a5750e 
+pspsetup.msi: 28117919890ee872674174b33cce2bef 
+
 
 Current Issues:
 Using Ctrl as the PrintScreen button may disrupt Ctrl+C and Ctrl+V (Copy/Paste) on other Applications.

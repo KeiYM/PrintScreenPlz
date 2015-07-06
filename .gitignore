@@ -41,3 +41,10 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+Release/PrintScreenPlz.exe
+Release/PrintScreenPlz.exe.metagen
+*.tlog
+ScreenshotPlz/Debug/cl.command.1.tlog
+*.tlog
+Release/
+Debug/
