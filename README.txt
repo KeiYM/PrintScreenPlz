@@ -8,8 +8,7 @@ Tested on Windows 7 Home Edition & Windows 8 Home Edition so far.
 Introduced a Installer project for users lacking the necessary DLLs 
 
 MD5 Checksums:
-printscreenplz.exe: ea83f9b3b4946348c254bd4488a5750e 
-pspsetup.msi: 28117919890ee872674174b33cce2bef 
+printscreenplz.exe: 582b8b23b4c2036d48cf60dc4129f8a5installer: ff3752fdb0d24c6c501ba7ee0c8bdb56 
 
 Dropbox:
 For stand-alone exe file:
